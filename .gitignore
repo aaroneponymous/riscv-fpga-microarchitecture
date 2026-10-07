@@ -1,0 +1,80 @@
+# Prerequisites
+*.d
+
+# Compiled object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+risc_uarchitecture
+
+# CMake / build trees
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+build/
+cmake-build-*/
+out/
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
+*.ninja
+.ninja_deps
+.ninja_log
+
+# CLion / JetBrains
+.idea/
+
+# VS Code / other editors
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.cproject
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# clangd / language servers
+.cache/
+compile_flags.txt
+.clangd
+
+# Testing / coverage
+Testing/
+*.gcno
+*.gcda
+*.gcov
+coverage/
+*.profraw
+*.profdata
